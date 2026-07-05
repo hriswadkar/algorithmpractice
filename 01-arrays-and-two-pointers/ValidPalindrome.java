@@ -34,7 +34,31 @@ public class ValidPalindrome {
         //   3.   compare the lowercased chars; if they differ, return false
         //   4.   move both pointers inward
         //   5. If you get through the whole string, return true.
-        throw new UnsupportedOperationException("implement isPalindrome");
+        char[] arr = s.toLowerCase().toCharArray();
+        int left = 0;
+        int right = arr.length - 1;
+        while (left < right) {
+
+            // Skip non-alphanumeric chars on the LEFT
+            while (left < right && !Character.isLetterOrDigit(arr[left])) {
+                left++;
+            }
+
+            // Skip non-alphanumeric chars on the RIGHT
+            while (left < right && !Character.isLetterOrDigit(arr[right])) {
+                right--;
+            }
+
+            // Now both pointers sit on real chars — compare them
+            if (arr[left] != arr[right]) {
+                return false;
+            }
+
+            left++;
+            right--;
+        }
+
+        return true;
     }
 
     // ---------------------------------------------------------------------

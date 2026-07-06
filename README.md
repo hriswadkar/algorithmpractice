@@ -43,8 +43,8 @@ We go roughly easy → hard. Each topic builds on the previous one.
 
 | # | Topic | Core idea | Status |
 |---|-------|-----------|--------|
-| 1 | **Arrays & Two Pointers** | Walk an array with one or two indices; in-place work | In progress |
-| 2 | **Hashing / HashMaps** | Trade memory for O(1) lookups; frequency counting | Planned |
+| 1 | **Arrays & Two Pointers** | Walk an array with one or two indices; in-place work | Done |
+| 2 | **Hashing / HashMaps** | Trade memory for O(1) lookups; frequency counting | In progress |
 | 3 | **Stacks & Queues** | LIFO / FIFO; monotonic stacks | Planned |
 | 4 | **Linked Lists** | Node-by-node pointers; reversal, cycle detection | Planned |
 | 5 | **Trees (Binary Trees / BST)** | Recursion + traversals (in/pre/post-order) | Planned |
@@ -76,4 +76,5 @@ See `FRAMEWORK.md` for details.
 
 | Date | Topic | Challenge | Result |
 |------|-------|-----------|--------|
-| _pending_ | Arrays & Two Pointers | Valid Palindrome | not started |
+| 2026-07-05 | Arrays & Two Pointers | Valid Palindrome | solved (O(n) two pointers) |
+| _pending_ | Hashing / HashMaps | Contains Duplicate | not started |

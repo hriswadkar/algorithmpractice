@@ -30,8 +30,14 @@ import java.util.Set;
 public class ContainsDuplicate {
 
     static boolean containsDuplicate(int[] nums) {
-        // TODO: use a HashSet to detect a repeated value in a single pass.
-        throw new UnsupportedOperationException("implement containsDuplicate");
+        Set<Integer> seen = new HashSet<>();
+        for (int x : nums) {
+            if (seen.contains(x)) {
+                return true;
+            }
+            seen.add(x);
+        }
+        return false;
     }
 
     // ---------------------------------------------------------------------

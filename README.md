@@ -77,4 +77,5 @@ See `FRAMEWORK.md` for details.
 | Date | Topic | Challenge | Result |
 |------|-------|-----------|--------|
 | 2026-07-05 | Arrays & Two Pointers | Valid Palindrome | solved (O(n) two pointers) |
-| _pending_ | Hashing / HashMaps | Contains Duplicate | not started |
+| 2026-07-05 | Hashing / HashMaps | Contains Duplicate | solved (O(n) HashSet) |
+| _pending_ | Hashing / HashMaps | Two Sum | not started |

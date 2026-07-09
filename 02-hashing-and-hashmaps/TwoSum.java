@@ -42,6 +42,14 @@ public class TwoSum {
 
     static int[] twoSum(int[] nums, int target) {
         // TODO: use a HashMap<value, index> and the complement (target - nums[i]).
+        Map<Integer, Integer> seen = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int need = target - nums[i];
+            if (seen.containsKey(need)) {
+                return new int[]{seen.get(need), i};
+            }
+            seen.put(nums[i], i);
+        }
         throw new UnsupportedOperationException("implement twoSum");
     }
 

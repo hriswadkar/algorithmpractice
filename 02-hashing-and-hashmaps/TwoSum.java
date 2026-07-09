@@ -50,7 +50,7 @@ public class TwoSum {
             }
             seen.put(nums[i], i);
         }
-        throw new UnsupportedOperationException("implement twoSum");
+        return new int[]{-1, -1};
     }
 
     // ---------------------------------------------------------------------

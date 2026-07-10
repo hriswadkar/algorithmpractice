@@ -44,8 +44,8 @@ We go roughly easy → hard. Each topic builds on the previous one.
 | # | Topic | Core idea | Status |
 |---|-------|-----------|--------|
 | 1 | **Arrays & Two Pointers** | Walk an array with one or two indices; in-place work | Done |
-| 2 | **Hashing / HashMaps** | Trade memory for O(1) lookups; frequency counting | In progress |
-| 3 | **Stacks & Queues** | LIFO / FIFO; monotonic stacks | Planned |
+| 2 | **Hashing / HashMaps** | Trade memory for O(1) lookups; frequency counting | Done |
+| 3 | **Stacks & Queues** | LIFO / FIFO; monotonic stacks | In progress |
 | 4 | **Linked Lists** | Node-by-node pointers; reversal, cycle detection | Planned |
 | 5 | **Trees (Binary Trees / BST)** | Recursion + traversals (in/pre/post-order) | Planned |
 | 6 | **Graphs: BFS / DFS** | Explore grids/graphs; shortest path, connectivity | Planned |
@@ -78,4 +78,5 @@ See `FRAMEWORK.md` for details.
 |------|-------|-----------|--------|
 | 2026-07-05 | Arrays & Two Pointers | Valid Palindrome | solved (O(n) two pointers) |
 | 2026-07-05 | Hashing / HashMaps | Contains Duplicate | solved (O(n) HashSet) |
-| _pending_ | Hashing / HashMaps | Two Sum | not started |
+| 2026-07-05 | Hashing / HashMaps | Two Sum | solved (O(n) HashMap) |
+| _pending_ | Stacks & Queues | Valid Parentheses | not started |

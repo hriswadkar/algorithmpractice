@@ -1,5 +1,6 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Queue;
 
 /*
  * CHALLENGE: Valid Parentheses  (Stack)
@@ -40,8 +41,33 @@ import java.util.Deque;
 public class ValidParentheses {
 
     static boolean isValid(String s) {
-        // TODO: use a stack. Push openers; on a closer, check it matches the top.
-        throw new UnsupportedOperationException("implement isValid");
+
+        Deque<Character> stack = new ArrayDeque<>();
+
+        for(char c: s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') {
+                // Push openers
+                stack.push(c);
+            } else {
+                // Pop closers
+                if(stack.isEmpty()) {
+                    return false; // nothing to match
+                }
+                char open = stack.pop();
+                if (c == ')' && open != '(') {
+                    return false;
+                }
+                if (c == '}' && open != '{') {
+                    return false;
+                }
+                if (c == ']' && open != '[') {
+                    return false;
+                }
+            }
+        }
+
+        // After the loop, the string is valid ONLY IF the stack is empty
+        return stack.isEmpty();
     }
 
     // ---------------------------------------------------------------------

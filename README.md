@@ -45,8 +45,8 @@ We go roughly easy → hard. Each topic builds on the previous one.
 |---|-------|-----------|--------|
 | 1 | **Arrays & Two Pointers** | Walk an array with one or two indices; in-place work | Done |
 | 2 | **Hashing / HashMaps** | Trade memory for O(1) lookups; frequency counting | Done |
-| 3 | **Stacks & Queues** | LIFO / FIFO; monotonic stacks | In progress |
-| 4 | **Linked Lists** | Node-by-node pointers; reversal, cycle detection | Planned |
+| 3 | **Stacks & Queues** | LIFO / FIFO; monotonic stacks | Done |
+| 4 | **Linked Lists** | Node-by-node pointers; reversal, cycle detection | In progress |
 | 5 | **Trees (Binary Trees / BST)** | Recursion + traversals (in/pre/post-order) | Planned |
 | 6 | **Graphs: BFS / DFS** | Explore grids/graphs; shortest path, connectivity | Planned |
 | 7 | **Dynamic Programming** | Break a problem into overlapping subproblems | Planned |
@@ -79,4 +79,5 @@ See `FRAMEWORK.md` for details.
 | 2026-07-05 | Arrays & Two Pointers | Valid Palindrome | solved (O(n) two pointers) |
 | 2026-07-05 | Hashing / HashMaps | Contains Duplicate | solved (O(n) HashSet) |
 | 2026-07-05 | Hashing / HashMaps | Two Sum | solved (O(n) HashMap) |
-| _pending_ | Stacks & Queues | Valid Parentheses | not started |
+| 2026-07-05 | Stacks & Queues | Valid Parentheses | solved (O(n) stack) |
+| _pending_ | Linked Lists | Reverse Linked List | not started |
